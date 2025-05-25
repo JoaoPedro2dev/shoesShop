@@ -17,7 +17,6 @@ function App() {
       <div>{criarPrateleira("esportivo", "Tênis Esportivos")}</div>
       <div>{criarPrateleira("luxo", "Tênis de luxo")}</div>
       <div>{criarPrateleira("infantil", "Tênis infantis")}</div>
-      <p>Atualização</p>
       <Footer />
     </div>
   );

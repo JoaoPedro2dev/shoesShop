@@ -5,22 +5,23 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Venda from "./pages/venda/Venda.jsx";
 import Pesquisa from "./pages/pesquisa/Pesquisa.jsx";
+import NotFound from "./pages/notFound/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>Erro ao encontrar a pagina</div>,
+    errorElement: <NotFound />,
   },
   {
     path: "/venda",
     element: <Venda />,
-    errorElement: <div>Erro ao encontrar a pagina</div>,
+    errorElement: <NotFound />,
   },
   {
     path: "/pesquisa",
     element: <Pesquisa />,
-    errorElement: <div>Erro ao encontrar a pagina de pesquisa</div>,
+    errorElement: <NotFound />,
   },
 ]);
 
