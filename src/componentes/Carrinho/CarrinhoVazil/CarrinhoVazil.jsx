@@ -6,7 +6,7 @@ function CarrinhoVazil() {
       <div>
         <ShoppingCart size={100} />
         <div>
-          <strong>Seu carrinho esta vázil</strong>
+          <strong>Seu carrinho esta vasil</strong>
           <p>Aproveite nossas promoções e ofertas para você</p>
         </div>
       </div>
